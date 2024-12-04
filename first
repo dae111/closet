@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyCloset - Outfit Creator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">MyCloset</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="outfit-creator">
+    <section class="creator-panel">
+      <h2>Create Your Outfit</h2>
+      <div class="categories">
+        <button data-category="tops">Tops</button>
+        <button data-category="bottoms">Bottoms</button>
+        <button data-category="shoes">Shoes</button>
+        <button data-category="accessories">Accessories</button>
+      </div>
+      <div class="preview">
+        <h3>Outfit Preview</h3>
+        <div class="preview-display">
+          <!-- Dynamic content for the outfit -->
+        </div>
+      </div>
+      <button class="dress-me">Dress Me</button>
+    </section>
+  </main>
+</body>
+</html>
